@@ -15,6 +15,8 @@ return [
     |
     */
 
+    $DATABASE_URL= parse_url('postgres://dzstndvyenndrr:97b10eaddedc888b0407f81fb4e3ed2416923f1808d4cde7f25a5bb4675bdabd@ec2-3-95-87-221.compute-1.amazonaws.com:5432/df88s6ol53mksb'),
+
     'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
@@ -63,7 +65,6 @@ return [
             ]) : [],
         ],
 
-        $DATABASE_URL= parse_url('postgres://dzstndvyenndrr:97b10eaddedc888b0407f81fb4e3ed2416923f1808d4cde7f25a5bb4675bdabd@ec2-3-95-87-221.compute-1.amazonaws.com:5432/df88s6ol53mksb'),
 
 
         'pgsql' => [
