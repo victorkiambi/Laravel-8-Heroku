@@ -13,6 +13,23 @@
         <!-- Styles -->
         <style>
             /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+            .grid-container{
+                display: grid;
+                grid-template-columns: 80px auto 400px 80px;
+                grid-gap: 10px;
+                /*grid-column: span 2;*/
+            }
+
+            .main{
+                grid-column: 2;
+                grid-column-end: 2;
+
+            }
+            .right-side{
+                grid-column: 3;
+
+            }
+
         </style>
 
         <style>
